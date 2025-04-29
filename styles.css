@@ -141,7 +141,8 @@ a:hover{
 #intro{
     padding : 1rem;
     /*max-width : 1200px;*/
-    margin  : .5rem 15rem .5rem 15rem;
+    margin  : 0 clamp(2rem, 5rem, 10rem) 0 clamp(2rem, 5rem, 10rem);
+
 }
 
 #intro p{
@@ -218,8 +219,8 @@ a:hover{
 
 @media (min-width : 850px){
     #nav{
-        max-width : 1200px;
-        margin    : 0 15rem 0 15rem;
+        /*max-width : 1200px;*/
+        margin : 0 clamp(2rem, 5rem, 10rem) 0 clamp(2rem, 5rem, 10rem);
 
     }
 
