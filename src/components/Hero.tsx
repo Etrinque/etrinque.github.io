@@ -1,4 +1,5 @@
 import { Dossier } from './Dossier';
+import profile_pic from "../assets/profile_pic.webp"
 
 export const Hero = () => (
     <section id="home" className="w-[80%] mx-auto py-24 md:py-32">
@@ -42,7 +43,7 @@ export const Hero = () => (
               <div className="relative">
                 <div className="w-48 h-48 md:w-56 md:h-56 rounded-2xl border border-slate-800 shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <div className="w-full h-full bg-slate-900 flex items-center justify-center text-white text-6xl">
-                    <img src={"./src/assets/profile_pic.jpg"} className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500" alt="Profile" />
+                    <img src={profile_pic} className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500" alt="Profile" />
                   </div>
                 </div>
               </div>
