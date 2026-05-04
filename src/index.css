@@ -1,5 +1,23 @@
 @import "tailwindcss";
 @theme {
+  --color-ink: #0b0d17;
+  --color-ink-soft: #11131f;
+  --color-panel: #171827;
+  --color-panel-soft: #1d1e30;
+  --color-line: #33324b;
+  --color-line-soft: #27283c;
+  --color-paper: #f4effb;
+  --color-mist: #d8d2e3;
+  --color-muted: #9693aa;
+  --color-dim: #6f7086;
+  --color-lilac: #c7a7ff;
+  --color-lilac-soft: #a88bef;
+  --color-rosewave: #e78ac3;
+  --color-cyanwave: #7bcfd6;
+  --color-mintwave: #8ccfb7;
+  --font-sans: Aptos, "IBM Plex Sans", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Aptos Mono", "IBM Plex Mono", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
   --animate-slide-in-left: slide-in-left 0.8s ease-out forwards;
   --animate-slide-in-right: slide-in-right 0.8s ease-out forwards;
 
@@ -28,13 +46,13 @@
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Aptos, "IBM Plex Sans", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #d8d2e3;
+  background-color: #0b0d17;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -44,11 +62,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #c7a7ff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #e78ac3;
 }
 
 body {
@@ -69,12 +87,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #171827;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #c7a7ff;
 }
 button:focus,
 button:focus-visible {
@@ -83,13 +101,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #d8d2e3;
+    background-color: #0b0d17;
   }
   a:hover {
-    color: #747bff;
+    color: #e78ac3;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #171827;
   }
 }

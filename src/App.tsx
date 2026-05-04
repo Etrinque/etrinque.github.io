@@ -9,21 +9,21 @@ import { Footer } from './components/Footer';
 // Main App Component
 export default function App() {
   return (
-      <div className="h-screen overflow-y-auto snap-y snap-mandatory bg-slate-950 text-slate-300 font-sans scroll-smooth">
+      <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-pt-16 bg-[linear-gradient(180deg,#0b0d17_0%,#11131f_48%,#0b0d17_100%)] text-mist font-sans scroll-smooth">
         <Navbar />
-        <div className="snap-start min-h-screen flex flex-col justify-center items-center">
+        <div className="snap-start min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center">
           <Hero />
         </div>
-        <div className="snap-start min-h-screen flex flex-col justify-center items-center">
+        <div className="snap-start min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center">
           <Projects />
         </div>
-        <div className="snap-start min-h-screen flex flex-col justify-center items-center">
+        <div className="snap-start min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center">
           <About />
         </div>
-        <div className="snap-start min-h-screen flex flex-col justify-center items-center">
+        <div className="snap-start min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center">
           <Blog />
         </div>
-        <div className="snap-start min-h-screen flex flex-col items-center">
+        <div className="snap-start min-h-[calc(100vh-4rem)] flex flex-col items-center">
           <div className="flex-grow flex flex-col justify-center w-full items-center">
             <Contact />
           </div>
